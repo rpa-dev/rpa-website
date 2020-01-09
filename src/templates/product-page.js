@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import COLORS from '../utils/colors'
 
 export const ProductPageTemplate = ({
   image,
@@ -30,8 +31,8 @@ export const ProductPageTemplate = ({
       <h2
         className="has-text-weight-bold is-size-1"
         style={{
-          boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-          backgroundColor: '#f40',
+          boxShadow: `0.5rem 0 0 ${COLORS.primaryLight}, -0.5rem 0 0 ${COLORS.primaryLight}`,
+          backgroundColor: `${COLORS.primaryLight}`,
           color: 'white',
           padding: '1rem',
         }}
@@ -176,7 +177,7 @@ export const productPageQuery = graphql`
           blurbs {
             image {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
+                fluid(maxWidth: 526, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
