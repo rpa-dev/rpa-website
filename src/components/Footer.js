@@ -16,9 +16,9 @@ const Footer = class extends React.Component {
           <img
             src={logo}
             alt="Resurrection"
-            style={{ width: '14em', height: '8em', position: 'relative', top: '248px', zIndex: 2 }}
+            style={{ width: '14em', height: '8em', position: 'relative', top: '258px', zIndex: 2 }}
           />
-          <img src={backgroundCut} style={{width: '100%', height: '200px', position: 'relative', top: '90px', zIndex: 1}}/>
+          <img src={backgroundCut} style={{width: '100%', height: '200px', position: 'relative', top: '100px', zIndex: 1}}/>
         </div>
         <div className="content has-text-centered has-background-lightgreen has-text-white-ter" style={{position: 'relative', top: '-0px'}}>
           <div className="container has-background-lightgreen has-text-white-ter"  >
