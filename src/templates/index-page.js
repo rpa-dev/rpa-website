@@ -6,16 +6,34 @@ import get from 'lodash/get';
 import compact from 'lodash/compact';
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Gallery from '../components/Gallery'
-import COLORS from '../utils/colors'
+import Testimonials from '../components/Testimonials'
+
+function getTestimonials() {
+  return [{
+    quote: '"We have attended this preschool for 7 years with my third child there now.  We have had such an amazing experience.  The teachers have taught my kids so much about kindness and caring while giving them a great educational experience.  My older kids were more then ready for Kindergarten and still love going back to see their teachers with their younger sister."'
+  }]
+}
 
 function getImages(blurbs) {
   return compact(map(blurbs, b => {
     const img = get(b, 'image.childImageSharp.fluid');
     return { caption: get(b, 'text'), ...img };
   }));
+}
+
+function renderDescription(txt = '', delim=";;") {
+  const [firstPart = '', ...parts] = txt.split(delim);
+   
+  return (
+    <div>
+      {firstPart}
+      <ul>
+        {parts.map(t => (<li>{t}</li>))}
+      </ul>
+    </div>
+  );
 }
 
 export const IndexPageTemplate = ({
@@ -26,6 +44,8 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  main,
+  main2
 }) => (
   <div>
     <div
@@ -41,7 +61,7 @@ export const IndexPageTemplate = ({
       <div
         style={{
           display: 'flex',
-          height: '150px',
+          height: '250px',
           lineHeight: '1',
           justifyContent: 'space-around',
           alignItems: 'left',
@@ -49,18 +69,10 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-          style={{
-            boxShadow: `0.5rem 0 0 ${COLORS.primaryLight}, -0.5rem 0 0 ${COLORS.primaryLight}`,
-            backgroundColor: `${COLORS.primaryLight}`,
-            color: 'white',
-            lineHeight: '1',
-            padding: '0.25em',
-          }}
+          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen boxyBg"
         >
           {title}
         </h1>
-
       </div>
     </div>
     <section className="section section--gradient">
@@ -76,30 +88,47 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
                     <p>{description}</p>
+                    <Link className="button is-hidden-desktop" to="/about">
+                      About →
+                    </Link>
                   </div>
                 </div>
                 <Gallery itemsPerRow={[2,5]} images={getImages(intro.blurbs)} />
                 <h3/>
+                <Testimonials testimonials={getTestimonials()} />
+                <h3/>
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/products">
+                    <Link className="btn" to="/admissions">
                       Join Our Community
                     </Link>
                   </div>
                 </div>
-                <div className="column is-12">
+                <div className="columns">
+                  <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
-                    Latest News
+                    {main.heading}
                   </h3>
-                  <BlogRoll />
-                  <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
-                      Read more
-                    </Link>
+                  <p>{renderDescription(main.description)}</p>
+                  </div>
+                </div>
+                <div className="column is-12 has-text-centered">
+                  <Link className="button" to="/programs">
+                    See Our Programs
+                  </Link>
+                </div>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {main2.heading}
+                    </h3>
+                    <BlogRoll count={1} />
+                    <div className="column is-12 has-text-centered">
+                      <Link className="button" to="/blog">
+                        Read more
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -121,6 +150,8 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
+  main: PropTypes.object,
+  main2: PropTypes.object,
 }
 
 const IndexPage = ({ data }) => {
@@ -136,6 +167,8 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        main={frontmatter.main}
+        main2={frontmatter.main2}
       />
     </Layout>
   )
@@ -181,6 +214,14 @@ export const pageQuery = graphql`
             }
             text
           }
+          heading
+          description
+        }
+        main {
+          heading
+          description
+        }
+        main2 {
           heading
           description
         }

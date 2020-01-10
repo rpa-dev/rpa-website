@@ -4,19 +4,24 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Gallery from '../components/Gallery'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="tile is-ancestor">
-  <div class="tile is-vertical is-9">
+  <div className="columns is-multiline">
     {gridItems.map(item => (
-      <div key={item.text} className="tilee">
-        <section className="tile is-parent">
-          <div className="tile is-child box has-text-centered">
+      <div key={item.text} className="column is-6">
+        <section className="section">
+          <div className="has-text-centered">
+            <div
+              style={{
+                width: '240px',
+                display: 'inline-block',
+              }}
+            >
               <PreviewCompatibleImage imageInfo={item} />
+            </div>
           </div>
           {item.text && (<p>{item.text}</p>)}
         </section>
       </div>
     ))}
-    </div>
   </div>
 )
 

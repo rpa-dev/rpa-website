@@ -37,19 +37,14 @@ const Footer = class extends React.Component {
                       </Link>
                     </li>
                     <li>
-                      <Link className="navbar-item" to="/products">
-                        Admissions
+                      <Link className="navbar-item" to="/programs">
+                        Programs
                       </Link>
                     </li>
                     <li>
-                      <a
-                        className="navbar-item"
-                        href="/admin/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Admin
-                      </a>
+                      <Link className="navbar-item" to="/admissions">
+                        Admissions
+                      </Link>
                     </li>
                   </ul>
                 </section>
@@ -67,6 +62,14 @@ const Footer = class extends React.Component {
                         Contact
                       </Link>
                     </li>
+                    <li/>
+                    <div className="block-address">
+                      <li className="has-text-weight-bold">Martha Foster, Director</li>
+                      <li>6201 Washington Boulevard</li>
+                      <li>Arlington, VA 22205</li>
+                      <li><a className="link-address" href="tel:+17035386232">Phone: (703) 538-6232</a></li>
+                      <li><a className="link-address" href="mailto:rlwp@copper.net">rlwp@copper.net</a></li>
+                    </div>
                   </ul>
                 </section>
               </div>

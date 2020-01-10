@@ -1,5 +1,9 @@
 @import "~bulma/sass/utilities/initial-variables"
-@import "~bulma"
+
+$family-primary: 'Nunito'
+$family-secondary: 'Open Sans'
+
+@import "~bulma/bulma.sass"
 
 // Config vars
 // Kaldi logo brand color: #FD461E
@@ -12,6 +16,8 @@ $primary-dark: rgb(16, 48, 30)
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+
+$body-family: 'Nunito'
 
 .has-background-lightgreen 
   background-color: $primary-light
@@ -93,8 +99,16 @@ $black: #2b2523
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: white
-  .menu-list, .social
+  .column
     margin-top: 35px
+    
+.block-address 
+  padding: 0.5rem 0.75rem
+  
+// Override default style for menu list links
+.menu-list a.link-address
+  color: lightblue  
+  padding: 0
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -124,11 +138,22 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
     
+.boxyBg
+    box-shadow: 0.5rem 0 0 rgba($primary-light, 0.5), -0.5rem 0 0 rgba($primary-light, 0.5)
+    background-color: rgba($primary-light, 0.5)
+    color: white
+    padding: 1rem
+    
 // about us
 .about-us
   // Wiggle pattern from http://www.heropatterns.com/
   background-color: #f6f9f7;
   background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23115b2e' fill-opacity='0.08'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  
+.contact-page
+  // Bubble pattern from http://www.heropatterns.com/
+  background-color: #f4fbf7
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23115b2e' fill-opacity='0.11' fill-rule='evenodd'/%3E%3C/svg%3E")
 
 // blog roll
 .blog-list-item.is-featured

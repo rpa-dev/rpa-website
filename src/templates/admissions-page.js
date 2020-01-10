@@ -6,9 +6,8 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import COLORS from '../utils/colors'
 
-export const ProductPageTemplate = ({
+export const AdmissionsPageTemplate = ({
   image,
   title,
   heading,
@@ -29,13 +28,7 @@ export const ProductPageTemplate = ({
       }}
     >
       <h2
-        className="has-text-weight-bold is-size-1"
-        style={{
-          boxShadow: `0.5rem 0 0 ${COLORS.primaryLight}, -0.5rem 0 0 ${COLORS.primaryLight}`,
-          backgroundColor: `${COLORS.primaryLight}`,
-          color: 'white',
-          padding: '1rem',
-        }}
+        className="has-text-weight-bold is-size-1 boxyBg"
       >
         {title}
       </h2>
@@ -105,7 +98,7 @@ export const ProductPageTemplate = ({
   </div>
 )
 
-ProductPageTemplate.propTypes = {
+AdmissionsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -134,7 +127,7 @@ const ProductPage = ({ data }) => {
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <AdmissionsPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}

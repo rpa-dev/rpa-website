@@ -1,8 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import Testimonials from '../components/Testimonials'
+
+function getTestimonials() {
+  return [{
+    quote: '"We have had a wonderful experience at this school. Thoughtful teachers, welcoming space, playground and community of families. Includes Spanish, movement and music enrichment thru a play-based model. My kids have loved this preschool."'
+  }]
+}
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content
@@ -12,11 +19,20 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <div className="container">
         <div className="columns">
           <div className="column is-10 is-offset-1">
+          
+            <Testimonials testimonials={getTestimonials()} />
+            
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
                 {title}
               </h2>
               <PageContent className="content" content={content} />
+            </div>
+            
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/admissions">
+                Join Our Community
+              </Link>
             </div>
           </div>
         </div>

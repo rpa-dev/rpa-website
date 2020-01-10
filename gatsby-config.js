@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Resurrection Luterhan Weekday Preschool Arlington, VA',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'Ressurection Lutheran Weekday Preschool in Arlington, VA has been enriching children’s lives thru play-based learning since 1997.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -64,6 +64,18 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
+    }, {
+    resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Nunito`
+          },
+          {
+            family: `Open Sans`
+          },
+        ],
+      }
     },
     {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules

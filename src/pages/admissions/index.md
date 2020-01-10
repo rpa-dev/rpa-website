@@ -1,6 +1,6 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: 'admissions-page'
+path: /admissions
 title: Join Our Community
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience

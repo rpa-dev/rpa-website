@@ -2,7 +2,6 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
-import COLORS from '../../utils/colors'
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -15,13 +14,7 @@ export default class BlogIndexPage extends React.Component {
           }}
         >
           <h1
-            className="has-text-weight-bold is-size-1"
-            style={{
-              boxShadow: `0.5rem 0 0 ${COLORS.primaryLight}, -0.5rem 0 0 ${COLORS.primaryLight}`,
-              backgroundColor: `${COLORS.primaryLight}`,
-              color: 'white',
-              padding: '1rem',
-            }}
+            className="has-text-weight-bold is-size-1 boxyBg"
           >
             Latest News
           </h1>
