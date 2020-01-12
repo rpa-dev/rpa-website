@@ -27,10 +27,12 @@ intro:
 main:
   heading: Classes
   description: >
-    All classes start at 9:15 am and end at 12 noon for the first two weeks of school, the week of Thanksgiving, the first week back in January, and the last week of school in May. With the above exceptions, the Fours class will extend to 1 pm on Tuesday, Wednesday, and Thursday, starting the third week of school. The 2's and 3's classes will continue to dismiss at 12 noon on all days. Lunch Bunch for children who are three and potty-trained will be offered on Tuesday, Wednesday, and Thursday if interest warrants. The school is not open on Fridays.;;
-    2's meet on Tuesdays and Thursdays;;
-    3's meet on Tuesday, Wednesday and Thursday with an optional additional enrichment day on Monday;;
-    4's meet on Mondays, Tuesdays, Wednesdays and Thursdays
+    Classes for the 2’s and 3’s are held Monday through Thursday from 9:15 am – 12:00 noon. There is an optional lunch program for children who have turned three and are potty-trained. This program runs 12 noon – 1 pm on Tuesdays, Wednesdays, and Thursdays. The 4’s class meets Mondays from 9:15 am – 12:00 noon and Tuesdays, Wednesdays and Thursdays from 9:15 am – 1:00 pm. The school is not open on Fridays.
+    ;;2's class two days a week (either Monday/Wednesday or Tuesday/Thursday)
+    ;;2's class four days a week (Monday/Tuesday/Wednesday/Thursday)  
+    ;;3's class three days a week (Tuesday/Wednesday/Thursday)
+    ;;3's class four days a week (Monday/Tuesday/Wednesday/Thursday)
+    ;;4's class four days a week (Monday/Tuesday/Wednesday/Thursday)
   image1:
     alt: A close-up of a paper filter filled with ground coffee
     image: /img/products-grid3.jpg
