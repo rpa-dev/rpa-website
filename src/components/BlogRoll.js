@@ -5,13 +5,14 @@ import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
-    const { data } = this.props
+    const { data, count } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+    console.log('count2', count, this.props);
     return (
       <div className="columns is-multiline">
         {posts &&
-          posts.map(({ node: post }) => (
+          posts.slice(0, count || posts.length).map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
@@ -36,7 +37,7 @@ class BlogRoll extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
+                    <br/>
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
                     </span>
@@ -59,6 +60,7 @@ class BlogRoll extends React.Component {
 }
 
 BlogRoll.propTypes = {
+  count: PropTypes.number,
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -66,13 +68,13 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default () => (
+export default ({ count }) => (console.log('count', count) ||
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "blog-post" }, featuredpost: { eq: true } } }
         ) {
           edges {
             node {
@@ -99,6 +101,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data) => <BlogRoll data={data} count={count} />}
   />
 )

@@ -2,7 +2,7 @@
 templateKey: 'programs-page'
 path: /programs
 title: Our Programs
-image: /img/RLWP-books.jpg
+image: /img/RLWP-programs.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their

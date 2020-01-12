@@ -30,7 +30,7 @@ function renderDescription(txt = '', delim=";;") {
     <div>
       {firstPart}
       <ul>
-        {parts.map(t => (<li>{t}</li>))}
+        {parts.map((t) => (<li key={t}>{t}</li>))}
       </ul>
     </div>
   );
@@ -89,9 +89,11 @@ export const IndexPageTemplate = ({
                 <div className="columns">
                   <div className="column is-12">
                     <p>{description}</p>
-                    <Link className="button is-hidden-desktop" to="/about">
-                      About →
-                    </Link>
+                    <div className="column is-12 has-text-centered">
+                      <Link className="button" to="/about">
+                        About Us
+                      </Link>
+                    </div>
                   </div>
                 </div>
                 <Gallery itemsPerRow={[2,5]} images={getImages(intro.blurbs)} />
@@ -110,7 +112,7 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     {main.heading}
                   </h3>
-                  <p>{renderDescription(main.description)}</p>
+                  {renderDescription(main.description)}
                   </div>
                 </div>
                 <div className="column is-12 has-text-centered">
@@ -123,10 +125,10 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {main2.heading}
                     </h3>
-                    <BlogRoll count={1} />
+                    <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="button" to="/blog">
-                        Read more
+                        More For Current Parents
                       </Link>
                     </div>
                   </div>

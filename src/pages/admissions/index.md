@@ -2,7 +2,7 @@
 templateKey: 'admissions-page'
 path: /admissions
 title: Join Our Community
-image: /img/jumbotron.jpg
+image: /img/RWLP-admissions.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
