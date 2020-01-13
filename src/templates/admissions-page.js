@@ -50,7 +50,7 @@ function renderMainDescription(txt = '', delim=";;", newline="nl") {
 
 export const AdmissionsPageTemplate = ({
   content,
-  contentComponent,
+  contentComponent=HTMLContent,
   image,
   title,
   heading,
