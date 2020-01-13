@@ -74,6 +74,14 @@ export const IndexPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
+            
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/admissions"
+                style={{position: 'relative', top: '-50px'}}>
+                Join Our Community
+              </Link>
+            </div>
+            
               <div className="content">
                 <div className="content">
                   <div className="tile">
