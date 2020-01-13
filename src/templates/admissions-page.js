@@ -96,7 +96,7 @@ export const AdmissionsPageTemplate = ({
                 <Pricing data={pricing.plans} />
                 <br/>
                 <div className="column is-12 has-text-centered">
-                  <a className="btn" href="{pricing.form_url}" title="Link to download the Registration PDF Form">
+                  <a className="btn" target="_blank" href={pricing.form_url} title="Link to download the Registration PDF Form">
                     Download Registration Form
                   </a>
                 </div>
@@ -135,7 +135,7 @@ export const AdmissionsPageTemplate = ({
                 </div>
                 <PageContent className="content" content={content}/>
                 <div className="column is-12 has-text-centered">
-                  <a className="btn" href="{pricing.form_url}" title="Link to download the Registration PDF Form">
+                  <a className="btn" target="_blank" href={pricing.form_url} title="Link to download the Registration PDF Form">
                     Download Registration Form
                   </a>
                 </div>

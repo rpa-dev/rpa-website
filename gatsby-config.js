@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Resurrection Luterhan Weekday Preschool Arlington, VA',
+    title: 'Resurrection Lutheran Weekday Preschool Arlington, VA',
     description:
       'Ressurection Lutheran Weekday Preschool in Arlington, VA has been enriching children’s lives thru play-based learning since 1997.',
   },
