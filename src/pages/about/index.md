@@ -2,6 +2,10 @@
 templateKey: 'about-page'
 path: /about
 title: About Resurrection Lutheran Weekday Preschool in Arlington, VA
+testimonials:
+  - author: Colleen
+    quote: >-
+      We have had a wonderful experience at this school. Thoughtful teachers, welcoming space, playground and community of families. Includes Spanish, movement and music enrichment thru a play-based model. My kids have loved this preschool.
 ---
 ### Mission
 Our Mission is to provide a caring setting that creates and fosters a sense of community as well as a life-long love of learning in your child.

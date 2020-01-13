@@ -3,9 +3,7 @@ templateKey: index-page
 title: Welcome to Resurrection Lutheran Weekday Preschool
 image: /img/home-jumbotron.jpg
 heading: Playful Learning Environment
-subheading: not used
 mainpitch:
-  title:  not used
   description: >
     Enriching children’s lives thru play-based learning since 1997
 description: >-
@@ -21,9 +19,10 @@ intro:
     - image: /img/IMG_7.jpg
     - image: /img/IMG_8.jpg
     - image: /img/IMG_9.jpg
-  heading: not used
-  description: >
-    not used
+testimonials:
+  - author: Julie
+    quote: >-
+      We have attended this preschool for 7 years with my third child there now. We have had such an amazing experience. The teachers have taught my kids so much about kindness and caring while giving them a great educational experience. My older kids were more then ready for Kindergarten and still love going back to see their teachers with their younger sister.
 main:
   heading: Classes
   description: >
@@ -33,16 +32,6 @@ main:
     ;;3's class three days a week (Tuesday/Wednesday/Thursday)
     ;;3's class four days a week (Monday/Tuesday/Wednesday/Thursday)
     ;;4's class four days a week (Monday/Tuesday/Wednesday/Thursday)
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 main2:
   heading: Latest News
-  description: not used
 ---

@@ -10,12 +10,6 @@ import BlogRollFeatured from '../components/BlogRollFeatured'
 import Gallery from '../components/Gallery'
 import Testimonials from '../components/Testimonials'
 
-function getTestimonials() {
-  return [{
-    quote: '"We have attended this preschool for 7 years with my third child there now.  We have had such an amazing experience.  The teachers have taught my kids so much about kindness and caring while giving them a great educational experience.  My older kids were more then ready for Kindergarten and still love going back to see their teachers with their younger sister."'
-  }]
-}
-
 function getImages(blurbs) {
   return compact(map(blurbs, b => {
     const img = get(b, 'image.childImageSharp.fluid');
@@ -40,7 +34,7 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  subheading,
+  testimonials,
   mainpitch,
   description,
   intro,
@@ -98,7 +92,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <Gallery itemsPerRow={[2,5]} images={getImages(intro.blurbs)} />
                 <h3/>
-                <Testimonials testimonials={getTestimonials()} />
+                <Testimonials testimonials={testimonials} />
                 <h3/>
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
@@ -147,6 +141,7 @@ IndexPageTemplate.propTypes = {
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
+  testimonials: PropTypes.array,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -165,7 +160,7 @@ const IndexPage = ({ data }) => {
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
+        testimonials={frontmatter.testimonials}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
@@ -199,9 +194,7 @@ export const pageQuery = graphql`
           }
         }
         heading
-        subheading
         mainpitch {
-          title
           description
         }
         description
@@ -214,10 +207,11 @@ export const pageQuery = graphql`
                 }
               }
             }
-            text
           }
-          heading
-          description
+        }
+        testimonials {
+          author
+          quote
         }
         main {
           heading
@@ -225,7 +219,6 @@ export const pageQuery = graphql`
         }
         main2 {
           heading
-          description
         }
       }
     }

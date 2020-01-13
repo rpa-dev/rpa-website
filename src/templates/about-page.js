@@ -5,13 +5,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Testimonials from '../components/Testimonials'
 
-function getTestimonials() {
-  return [{
-    quote: '"We have had a wonderful experience at this school. Thoughtful teachers, welcoming space, playground and community of families. Includes Spanish, movement and music enrichment thru a play-based model. My kids have loved this preschool."'
-  }]
-}
-
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({ title, testimonials, content, contentComponent }) => {
   const PageContent = contentComponent || Content
 
   return (
@@ -20,7 +14,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
         <div className="columns">
           <div className="column is-10 is-offset-1">
           
-            <Testimonials testimonials={getTestimonials()} />
+            <Testimonials testimonials={testimonials} />
             
             <div className="section">
               <h2 className="title is-size-3 has-text-weight-bold is-bold-light">
@@ -43,6 +37,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
+  testimonials: PropTypes.array,
   content: PropTypes.string,
   contentComponent: PropTypes.func,
 }
@@ -55,6 +50,7 @@ const AboutPage = ({ data }) => {
       <AboutPageTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
+        testimonials={post.frontmatter.testimonials}
         content={post.html}
       />
     </Layout>
@@ -73,6 +69,10 @@ export const aboutPageQuery = graphql`
       html
       frontmatter {
         title
+        testimonials {
+          author
+          quote
+        }
       }
     }
   }

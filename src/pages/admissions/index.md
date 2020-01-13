@@ -45,7 +45,7 @@ disclaimer: >
   programs.
 full_image: /img/RLWP-tour.jpg
 testimonials:
-  - author: Arlington Dad
+  - author: Rob
     quote: >-
       Great Arlington preschool. Our kids (2 and 4) love their teachers and the
       welcoming, engaging environment. We find the enrichment classes offered
@@ -53,7 +53,7 @@ testimonials:
       the school director is great. I would definitely recommend, although apply
       early as it is competitive to gain admission (like most Arlington
       preschools).
-  - author: Arlington Mom
+  - author: Eevi
     quote: This is truly the most loving preschool. We couldn’t be happier!
 main:
   heading: Tours

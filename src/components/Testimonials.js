@@ -9,7 +9,9 @@ const Testimonials = ({ testimonials }) => (
         <div className="message-body">
           {testimonial.quote}
           <br />
-          {testimonial.author && (<cite> – {testimonial.author}</cite>)}
+          <div className="has-text-centered">
+            {testimonial.author && (<cite> – {testimonial.author}</cite>)}
+          </div>
         </div>
       </article>
     ))}
