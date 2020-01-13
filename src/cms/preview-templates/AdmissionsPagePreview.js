@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { AdmissionsPageTemplate } from '../../templates/admissions-page'
 
-const AdmissionsPagePreview = ({ entry, getAsset }) => {
+const AdmissionsPagePreview = ({ entry, getAsset, widgetFor }) => {
   const entryBlurbs = entry.getIn(['data', 'intro', 'blurbs'])
   const blurbs = entryBlurbs ? entryBlurbs.toJS() : []
 
@@ -14,6 +14,7 @@ const AdmissionsPagePreview = ({ entry, getAsset }) => {
 
   return (
     <AdmissionsPageTemplate
+      content={widgetFor('body')}
       image={entry.getIn(['data', 'image'])}
       title={entry.getIn(['data', 'title'])}
       heading={entry.getIn(['data', 'heading'])}
@@ -42,6 +43,7 @@ const AdmissionsPagePreview = ({ entry, getAsset }) => {
         description: entry.getIn(['data', 'pricing', 'description']),
         plans: pricingPlans,
       }}
+      disclaimer={entry.getIn(['data', 'disclaimer'])}
     />
   )
 }
@@ -51,6 +53,7 @@ AdmissionsPagePreview.propTypes = {
     getIn: PropTypes.func,
   }),
   getAsset: PropTypes.func,
+  widgetFor: PropTypes.func
 }
 
 export default AdmissionsPagePreview
