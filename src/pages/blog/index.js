@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import BlogRollAll from '../../components/BlogRollAll'
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -13,7 +13,7 @@ export default class BlogIndexPage extends React.Component {
             backgroundImage: `url('/img/blog-index.jpg')`,
           }}
         >
-          <h1
+          <h1   
             className="has-text-weight-bold is-size-1 boxyBg"
           >
             Latest News
@@ -22,7 +22,7 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <BlogRollAll />
             </div>
           </div>
         </section>

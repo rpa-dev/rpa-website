@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const BlogPostTemplate = ({
   content,
@@ -13,12 +14,23 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  date,
+  image
 }) => {
   const PostContent = contentComponent || Content
 
   return (
     <section className="section">
       {helmet || ''}
+      <div
+        className="full-width-image-container margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+          backgroundPosition: `top left`,
+        }}
+      />
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -51,6 +63,9 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  tags: PropTypes.arrayOf(PropTypes.string),
+  date: PropTypes.object,
+  image: PropTypes.object,
   helmet: PropTypes.object,
 }
 
@@ -74,6 +89,8 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        date={post.frontmatter.date}
+        image={post.frontmatter.featuredimage}
       />
     </Layout>
   )
@@ -94,6 +111,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        featuredimage {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         title
         description
         tags

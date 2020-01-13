@@ -1,26 +1,28 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+function renderParagraphDescription(txt = '', delim=";;") {
+  const parts = txt.split(delim);
+   
+  return (
+    <div>
+        {parts.map((t) => (<div key={t}>{t}</div>))}
+    </div>
+  );
+}
+
 const Pricing = ({ data }) => (
-  <div className="columns">
+  <div className="rows">
     {data.map(price => (
-      <div key={price.plan} className="column">
-        <section className="section">
-          <h4 className="has-text-centered has-text-weight-semibold">
+      <div key={price.plan + price.description} className="columns has-text-centered">
+        <section className="column is-size-4 has-text-weight-semibold">
             {price.plan}
-          </h4>
-          <h2 className="is-size-1 has-text-weight-bold has-text-primary has-text-centered">
-            ${price.price}
-          </h2>
-          <p className="has-text-weight-semibold">{price.description}</p>
-          <ul>
-            {price.items.map(item => (
-              <li key={item} className="is-size-5">
-                {item}
-              </li>
-            ))}
-          </ul>
         </section>
+        <div className="column has-text-weight-semibold">{renderParagraphDescription(price.description)}</div>
+        <div className="column is-size-4 has-text-weight-bold has-text-primary">
+          ${price.price}
+        </div>
+        <br/>
       </div>
     ))}
   </div>
@@ -32,7 +34,6 @@ Pricing.propTypes = {
       plan: PropTypes.string,
       price: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
       description: PropTypes.string,
-      items: PropTypes.array,
     })
   ),
 }

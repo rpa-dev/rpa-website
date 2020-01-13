@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export const HTMLContent = ({ content, className }) => (
+export const HTMLContent = ({ content, className }) => (console.log('content', content) || 
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
 )
 

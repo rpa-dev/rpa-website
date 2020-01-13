@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import Gallery from '../components/Gallery'
 
 function renderDescription(txt = '', delim=";;") {
   const [firstPart = '', ...parts] = txt.split(delim);

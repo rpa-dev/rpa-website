@@ -6,106 +6,153 @@ import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import Content, { HTMLContent } from '../components/Content'
+import { v4 } from 'uuid'
+
+function renderDescription(txt = '', delim=";;") {
+  const [firstPart = '', ...parts] = txt.split(delim);
+   
+  return (
+    <div>
+      {firstPart}
+      <ul>
+        {parts.map((t) => (<li key={t}>{t}</li>))}
+      </ul>
+    </div>
+  );
+}
+
+function renderParagraphDescription(txt = '', delim=";;", newline="nl") {
+  const parts = txt.split(delim);
+  
+  return (
+    <div>
+        {parts.map((t) => (<div key={v4()}>{t === newline ? <br/> : t}</div>))}
+    </div>
+  );
+}
+
+function renderMainDescription(txt = '', delim=";;", newline="nl") {
+  const [firstPart = '', ...parts] = txt.split(delim);
+   
+  return (
+    <div className="has-text-centered">
+      <div className="has-text-weight-bold is-size-4">{firstPart}</div>
+      <br/>
+      {parts.map((t) => (
+        <div key={t}>{t === newline ? 
+          <div style={{lineHeight: '8px'}}>&nbsp;</div> : t}
+        </div>)
+      )}
+    </div>
+  );
+}
 
 export const AdmissionsPageTemplate = ({
+  content,
+  contentComponent,
   image,
   title,
   heading,
   description,
-  intro,
   main,
   testimonials,
   fullImage,
   pricing,
-}) => (
-  <div className="content">
-    <div
-      className="full-width-image-container margin-top-0"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-      }}
-    >
-      <h2
-        className="has-text-weight-bold is-size-1 boxyBg"
+  disclaimer
+}) => {
+  const PageContent = contentComponent || Content
+  
+  return (
+    <div className="content">
+      <div
+        className="full-width-image-container margin-top-0"
+        style={{
+          backgroundImage: `url(${
+            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          })`,
+        }}
       >
-        {title}
-      </h2>
-    </div>
-    <section className="section section--gradient">
-      <div className="container">
-        <div className="section">
-          <div className="columns">
-            <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
+        <h2
+          className="has-text-weight-bold is-size-1 boxyBg"
+        >
+          {title}
+        </h2>
+      </div>
+      <section className="section section--gradient">
+        <div className="container">
+          <div className="section">
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+                {renderDescription(description)}
+              </div>
             </div>
-          </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
+            <div className="columns">
+              <div className="column is-10 is-offset-1">
+                <h2 className="has-text-weight-semibold is-size-2">
+                  {pricing.heading}
+                </h2>
+                <Pricing data={pricing.plans} />
+                <br/>
+                <div className="column is-12 has-text-centered">
+                  <a className="btn" href="{pricing.form_url}" title="Link to download the Registration PDF Form">
+                    Download Registration Form
+                  </a>
                 </div>
-              </div>
-              <div className="tile is-ancestor">
-                <div className="tile is-vertical">
-                  <div className="tile">
-                    <div className="tile is-parent is-vertical">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image1} />
-                      </article>
-                    </div>
-                    <div className="tile is-parent">
-                      <article className="tile is-child">
-                        <PreviewCompatibleImage imageInfo={main.image2} />
-                      </article>
+                <br/>
+                {renderParagraphDescription(pricing.description)}
+                <br/>
+                <h5>
+                  <i>
+                    {disclaimer}
+                  </i>
+                </h5>
+                <div
+                  className="full-width-image-container"
+                  style={{
+                    backgroundImage: `url(${
+                      fullImage.childImageSharp
+                        ? fullImage.childImageSharp.fluid.src
+                        : fullImage
+                    })`,
+                    backgroundPosition: `top left`,
+                    backgroundAttachment: `fixed`,
+                  }}
+                />
+                <h3/>
+                <Testimonials testimonials={testimonials} />
+                <h3/>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      {main.heading}
+                    </h3>
+                    <div className="has-secondary-text">
+                      {renderMainDescription(main.description)}
                     </div>
                   </div>
-                  <div className="tile is-parent">
-                    <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image3} />
-                    </article>
-                  </div>
+                </div>
+                <PageContent className="content" content={content}/>
+                <div className="column is-12 has-text-centered">
+                  <a className="btn" href="{pricing.form_url}" title="Link to download the Registration PDF Form">
+                    Download Registration Form
+                  </a>
                 </div>
               </div>
-              <Testimonials testimonials={testimonials} />
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </div>
-)
+      </section>
+    </div>
+  )
+}
 
 AdmissionsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
-  intro: PropTypes.shape({
-    blurbs: PropTypes.array,
-  }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
@@ -120,23 +167,26 @@ AdmissionsPageTemplate.propTypes = {
     description: PropTypes.string,
     plans: PropTypes.array,
   }),
+  disclaimer: PropTypes.string
 }
 
 const ProductPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
-
+  const { frontmatter, html } = data.markdownRemark
+  
   return (
     <Layout>
       <AdmissionsPageTemplate
+        contentComponent={HTMLContent}
+        content={html}
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
         description={frontmatter.description}
-        intro={frontmatter.intro}
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
+        disclaimer={frontmatter.disclaimer}
       />
     </Layout>
   )
@@ -145,6 +195,7 @@ const ProductPage = ({ data }) => {
 ProductPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
+      html: PropTypes.node,
       frontmatter: PropTypes.object,
     }),
   }),
@@ -155,6 +206,7 @@ export default ProductPage
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
+      html
       frontmatter {
         title
         image {
@@ -166,53 +218,9 @@ export const productPageQuery = graphql`
         }
         heading
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 100) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
         main {
           heading
           description
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
         testimonials {
           author
@@ -228,13 +236,14 @@ export const productPageQuery = graphql`
         pricing {
           heading
           description
+          form_url
           plans {
             description
-            items
             plan
             price
           }
         }
+        disclaimer
       }
     }
   }

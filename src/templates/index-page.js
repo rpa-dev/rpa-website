@@ -6,7 +6,7 @@ import get from 'lodash/get';
 import compact from 'lodash/compact';
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import BlogRollFeatured from '../components/BlogRollFeatured'
 import Gallery from '../components/Gallery'
 import Testimonials from '../components/Testimonials'
 
@@ -125,7 +125,7 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {main2.heading}
                     </h3>
-                    <BlogRoll />
+                    <BlogRollFeatured />
                     <div className="column is-12 has-text-centered">
                       <Link className="button" to="/blog">
                         More For Current Parents

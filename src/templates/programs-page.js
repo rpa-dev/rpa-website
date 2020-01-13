@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 
@@ -47,6 +47,13 @@ export const ProgramsPageTemplate = ({
                   <p>{main.description}</p>
                 </div>
               </div>
+            </div>
+          </div>
+          <div className="columns">
+            <div className="column is-12 has-text-centered">
+              <Link className="btn" to="/admissions">
+                Join Our Community
+              </Link>
             </div>
           </div>
         </div>
@@ -115,7 +122,7 @@ export const ProgramsPageQuery = graphql`
             heading
             image {
               childImageSharp {
-                fluid(maxWidth: 526, quality: 100) {
+                fluid(maxHeight: 350, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }

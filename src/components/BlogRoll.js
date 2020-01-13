@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { Link, } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
@@ -8,10 +8,12 @@ class BlogRoll extends React.Component {
     const { data, count } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
-    console.log('count2', count, this.props);
     return (
       <div className="columns is-multiline">
-        {posts &&
+        {!posts.length ?
+          <div className="is-size-3 column has-text-centered">
+            There is no featured news.
+          </div> :
           posts.slice(0, count || posts.length).map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
               <article
@@ -68,39 +70,4 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default ({ count }) => (console.log('count', count) ||
-  <StaticQuery
-    query={graphql`
-      query BlogRollQuery {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "blog-post" }, featuredpost: { eq: true } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                date(formatString: "MMMM DD, YYYY")
-                featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={(data) => <BlogRoll data={data} count={count} />}
-  />
-)
+export default BlogRoll

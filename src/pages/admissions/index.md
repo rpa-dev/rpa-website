@@ -3,94 +3,66 @@ templateKey: 'admissions-page'
 path: /admissions
 title: Join Our Community
 image: /img/RWLP-admissions.jpg
-heading: Great coffee with a conscience
+heading: Registration
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
-intro:
-  blurbs:
-    - image: /img/coffee.png
-      text: >
-    - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
-      text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
+  Registration Fees are due during priority registration OR when an offer is made during open registration. The registration fees are payable when a space is offered and are nonrefundable.
+  ;;$100.00 for the first child
+  ;;$75.00 for each additional child
 pricing:
-  heading: Monthly subscriptions
+  heading: Tuition
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    Activity Fees are $125 for Threes and Fours and $50 for Twos.
+    ;;nl;;All children must have reached the appropriate age by September 30, 2020. September tuition and Activity Fee are due on March 12th, 2020 at 1pm. Thereafter, tuition is due on the first day of the month from September through April. Tuition and Fees are nonrefundable.
+    ;;nl;;Parents are asked to take turns providing snack and water for their child's class.
+  form_url: https://drive.google.com/file/d/1FOwzfLVU4atbyDorUpb5YLn98tdwuHFv/view?usp=sharing
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+    - description: Monday/Wednesday;;Tuesday/Thursday
+      plan: 2 Year Olds
+      price: '265 / mo'
+    - description: Monday - Thursday
+      plan: 2 Year Olds
+      price: '530 / mo'
+    - description: Monday - Wednesday
+      plan: 3 Year Olds
+      price: '325 / mo'
+    - description: Monday - Thursday
+      plan: 3 Year Olds
+      price: '435 / mo'
+    - description: Monday - Thursday;;INCLUDES EXTENDED DAY
+      plan: 4 Year Olds
+      price: '495 / mo '
+disclaimer: >
+  Resurrection Lutheran Weekday Preschool admits students of any race, color, national and ethnic origin to all the rights, privileges, programs and activities generally accorded or made available to the students at the school. It does not discriminate on the basis of race, color, national and ethnic origin in administration of its educational policies, admissions policies, scholarship and loan programs, and athletic and other school-administered programs.
+full_image: /img/RLWP-tour.jpg
+testimonials:
+  - author: Arlington Father
+    quote: >-
+      Great Arlington preschool. Our kids (2 and 4) love their teachers and the welcoming, engaging environment. We find the enrichment classes offered fantastic as well. (Spanish, Music, Sign Language & Movement). Ms. Martha, the school director is great. I would definitely recommend, although apply early as it is competitive to gain admission (like most Arlington preschools).
+  - author: Arlington Mom 
+    quote: >-
+      This is truly the most loving preschool. We couldn’t be happier!
+main:
+  heading: Tours
+  description: >-
+    Schedule Of Visits For Parents Of Preschool Age Children
+    ;;Winter 2020
+    ;;nl;;Thursday, January 23, 2020 at 9:30am
+    ;;Location:  Room 13 (on the lower level of the church)
+    ;;nl;;and
+    ;;nl;;Tuesday, January 28, 2020 at 7:30pm
+    ;;Location: Chapel (main level of the church)
 ---
+On both dates, we will start with an information session about the school and the registration process. We will then proceed to visit all of the classroom areas. On Thursday, the Director will conduct the session and classes will be visited. On Tuesday, a teacher and current parent will also be present, but classes will not be in session. Forms will be available at both sessions. Parents are welcome to attend a tour but are not required to do so in order to submit an application.
+
+**All forms and envelopes need to be submitted no later than January 30, 2020 at 1pm in order to be included in the lottery for class openings.**
+
+Please make childcare arrangements for your children during the time you desire to visit.
+
+For your convenience, a downloadable PDF version of the registration form is available below. Click to view, save, and print the registration form.
+
+Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) and indicate which day you will attend so that sufficient materials are available. If leaving a message, please leave your name, phone number and the age of your child. 
+
+We look forward to meeting you. Thank you for your interest. 
+
+_Martha Foster, Director_
+
