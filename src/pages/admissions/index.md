@@ -21,19 +21,19 @@ pricing:
     https://drive.google.com/file/d/1FOwzfLVU4atbyDorUpb5YLn98tdwuHFv/view?usp=sharing
   plans:
     - description: Monday/Wednesday;;Tuesday/Thursday
-      plan: 2 Year Olds
+      plan: 2 Year Olds (2 Days)
       price: 265 / mo
     - description: Monday - Thursday
-      plan: 2 Year Olds
+      plan: 2 Year Olds (4 Days)
       price: 530 / mo
     - description: Tuesday - Thursday
-      plan: 3 Year Olds
+      plan: 3 Year Olds (3 Days)
       price: 325 / mo
     - description: Monday - Thursday
-      plan: 3 Year Olds
+      plan: 3 Year Olds (4 Days)
       price: 435 / mo
     - description: Monday - Thursday;;INCLUDES EXTENDED DAY
-      plan: 4 Year Olds
+      plan: 4 Year Olds (4 Days)
       price: 495 / mo
 disclaimer: >
   Resurrection Lutheran Weekday Preschool admits students of any race, color,
