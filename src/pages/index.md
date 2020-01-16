@@ -8,9 +8,9 @@ testimonials:
     quote: >-
       We have attended this preschool for 7 years with my third child there now.
       We have had such an amazing experience. The teachers have taught my kids
-      so much about kindness and caring while giving them a great educational
-      experience. My older kids were more then ready for Kindergarten and still
-      love going back to see their teachers with their younger sister.
+      so much about kindness and caring, while giving them a great educational
+      experience. My older kids were more than ready for Kindergarten and still
+      love going back to see their teachers, with their younger sister.
 mainpitch:
   description: |
     Enriching children’s lives thru play-based learning since 1997
