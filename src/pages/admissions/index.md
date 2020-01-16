@@ -26,7 +26,7 @@ pricing:
     - description: Monday - Thursday
       plan: 2 Year Olds
       price: 530 / mo
-    - description: Monday - Wednesday
+    - description: Tuesday - Thursday
       plan: 3 Year Olds
       price: 325 / mo
     - description: Monday - Thursday
