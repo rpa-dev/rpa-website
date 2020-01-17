@@ -17,8 +17,9 @@ mainpitch:
 description: >-
   RLWP is a part time, 2-4 year old play-based early learning experience.
   Welcoming classrooms and playgrounds, experienced teachers, enrichment classes
-  on age-appropriate subjects, off-site field trips combine to provide a special
-  learning experience, to create and foster a love of learning in your child.
+  on age-appropriate subjects, and off-site field trips combine to provide a
+  special learning experience, to create and foster a love of learning in your
+  child.
 intro:
   blurbs:
     - image: /img/IMG_1.jpg
