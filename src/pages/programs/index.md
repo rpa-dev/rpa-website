@@ -5,13 +5,12 @@ image: /img/RLWP-programs.jpg
 heading: Our Classes
 description: >-
   All classes start at 9:15 am and end at 12 noon for the first week of school,
-  the week of Thanksgiving, the first week back in January, and the last week of
-  school in May. With the above exceptions, the Fours class will extend to 1 pm
-  on Tuesday, Wednesday, and Thursday, starting the second week of school. The
-  2's and 3's classes will continue to dismiss at 12 noon on all days. Lunch
-  Bunch for children who are three and potty-trained will be offered on Tuesday,
-  Wednesday, and Thursday if interest warrants. The school is not open on
-  Fridays.
+  the week of Thanksgiving and the last week of school in May. With the above
+  exceptions, the Fours class will extend to 1 pm on Tuesday, Wednesday, and
+  Thursday, starting the second week of school. The 2's and 3's classes will
+  continue to dismiss at 12 noon on all days. Lunch Bunch for children who are
+  three and potty-trained will be offered on Tuesday, Wednesday, and Thursday if
+  interest warrants. The school is not open on Fridays.
 intro:
   blurbs:
     - image: /img/IMG_4.jpg
