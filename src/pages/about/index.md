@@ -47,4 +47,4 @@ Through the years, parents and their children have been involved in several comm
 
 ### Operation and Licensing
 
-The Preschool is administered by the Weekday Preschool Committee which includes church representatives, parents, and officers of the Preschool. Annually, as a church-based program, RLWP goes the necessary inspections and submission of documents to maintain its religious-exemption from state licensure. These include fire safety and environmental inspections as well as maintaining health and security standards for staff.
+The Preschool is administered by the Weekday Preschool Committee which includes church representatives, parents, and officers of the Preschool. Annually, as a church-based program, RLWP completes the necessary inspections and submission of documents to maintain its religious-exemption from state licensure. These include fire safety and environmental inspections as well as maintaining health and security standards for staff.
