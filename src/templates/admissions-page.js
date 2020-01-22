@@ -2,10 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import Pricing from '../components/Pricing'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import Content, { HTMLContent } from '../components/Content'
 import { v4 } from 'uuid'
 
@@ -50,7 +48,7 @@ function renderMainDescription(txt = '', delim=";;", newline="nl") {
 
 export const AdmissionsPageTemplate = ({
   content,
-  contentComponent=HTMLContent,
+  contentComponent,
   image,
   title,
   heading,
@@ -96,7 +94,7 @@ export const AdmissionsPageTemplate = ({
                 <Pricing data={pricing.plans} />
                 <br/>
                 <div className="column is-12 has-text-centered">
-                  <a className="btn" target="_blank" href={pricing.form_url} title="Link to download the Registration PDF Form">
+                  <a className="btn" target="_blank" rel="noopener noreferrer" href={pricing.form_url} title="Link to download the Registration PDF Form">
                     Download Registration Form
                   </a>
                 </div>
@@ -135,7 +133,7 @@ export const AdmissionsPageTemplate = ({
                 </div>
                 <PageContent className="content" content={content}/>
                 <div className="column is-12 has-text-centered">
-                  <a className="btn" target="_blank" href={pricing.form_url} title="Link to download the Registration PDF Form">
+                  <a className="btn" target="_blank" rel="noopener noreferrer" href={pricing.form_url} title="Link to download the Registration PDF Form">
                     Download Registration Form
                   </a>
                 </div>
@@ -149,6 +147,8 @@ export const AdmissionsPageTemplate = ({
 }
 
 AdmissionsPageTemplate.propTypes = {
+  content: PropTypes.node,
+  contentComponent: PropTypes.func,
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -170,7 +170,7 @@ AdmissionsPageTemplate.propTypes = {
   disclaimer: PropTypes.string
 }
 
-const ProductPage = ({ data }) => {
+const AdmissionsPage = ({ data }) => {
   const { frontmatter, html } = data.markdownRemark
   
   return (
@@ -192,7 +192,7 @@ const ProductPage = ({ data }) => {
   )
 }
 
-ProductPage.propTypes = {
+AdmissionsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       html: PropTypes.node,
@@ -201,10 +201,10 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+export default AdmissionsPage
 
 export const productPageQuery = graphql`
-  query ProductPage($id: String!) {
+  query AdmissionsPage($id: String!) {
     markdownRemark(id: { eq: $id }) {
       html
       frontmatter {

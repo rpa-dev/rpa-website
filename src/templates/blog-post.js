@@ -1,11 +1,11 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
-import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
-import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { kebabCase } from 'lodash';
+import Helmet from 'react-helmet';
+import { graphql, Link } from 'gatsby';
+import Layout from '../components/Layout';
+import Content, { HTMLContent } from '../components/Content';
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
 export const BlogPostTemplate = ({
   content,
@@ -17,20 +17,22 @@ export const BlogPostTemplate = ({
   date,
   image
 }) => {
-  const PostContent = contentComponent || Content
+  const PostContent = contentComponent || Content;
 
   return (
     <section className="section">
       {helmet || ''}
-      <div
-        className="full-width-image-container margin-top-0"
-        style={{
-          backgroundImage: `url(${
-            !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
-          backgroundPosition: `top left`,
-        }}
-      />
+      {image && (
+        <div
+          className="full-width-image-container margin-top-0"
+          style={{
+            backgroundImage: `url(${
+              !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+            })`,
+            backgroundPosition: `top left`
+          }}
+        />
+      )}
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
@@ -55,8 +57,8 @@ export const BlogPostTemplate = ({
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 BlogPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
@@ -66,11 +68,11 @@ BlogPostTemplate.propTypes = {
   tags: PropTypes.arrayOf(PropTypes.string),
   date: PropTypes.object,
   image: PropTypes.object,
-  helmet: PropTypes.object,
-}
+  helmet: PropTypes.object
+};
 
 const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
+  const { markdownRemark: post } = data;
 
   return (
     <Layout>
@@ -93,16 +95,16 @@ const BlogPost = ({ data }) => {
         image={post.frontmatter.featuredimage}
       />
     </Layout>
-  )
-}
+  );
+};
 
 BlogPost.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.object,
-  }),
-}
+    markdownRemark: PropTypes.object
+  })
+};
 
-export default BlogPost
+export default BlogPost;
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
@@ -124,4 +126,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;
