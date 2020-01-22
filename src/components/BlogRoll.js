@@ -32,6 +32,7 @@ class BlogRoll extends React.Component {
                       />
                     </div>
                   ) : null}
+                  
                   <p className="post-meta">
                     <Link
                       className="title has-text-primary is-size-4"
@@ -39,10 +40,6 @@ class BlogRoll extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <br/>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
                   </p>
                 </header>
                 <p>

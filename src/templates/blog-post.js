@@ -41,8 +41,12 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} />
+            <div style={{ marginTop: `3rem` }}> 
+              <h4>Published</h4>
+              <p>{date}</p>
+            </div>
             {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
+              <div style={{ marginTop: `2rem` }}>
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
