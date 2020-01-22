@@ -15,6 +15,6 @@ tags:
 
 Please make childcare arrangements for your children during the time you desire to visit.
 
-Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) and indicate which day you will attend so that sufficient materials are available. If leaving a message, please leave your name, phone number and the age of your child. 
+Please call ([703.538.6232](tel:+17035386232)) or email ([rlwp@copper.net](rlwp@copper.net)) and indicate which day you will attend so that sufficient materials are available. If leaving a message, please leave your name, phone number and the age of your child. 
 
 We look forward to meeting you. Thank you for your interest.
