@@ -13,7 +13,7 @@ testimonials:
       love going back to see their teachers, with their younger sister.
 mainpitch:
   description: |
-    Enriching children’s lives thru play-based learning since 1997
+    Enriching children’s lives through play-based learning since 1997
 description: >-
   RLWP is a part time, 2-4 year old play-based early learning experience.
   Welcoming classrooms and playgrounds, experienced teachers, enrichment classes
