@@ -15,7 +15,7 @@ Our Mission is to provide a caring setting that creates and fosters a sense of c
 
 ### History
 
-Resurrection Lutheran Weekday Preschool (RLWP) opened its doors in September 1997 at its current location in Resurrection Evangelical Lutheran Church in North Arlington. Originally housed at Christ United Methodist Church, the school moved to its current home when the hosting church relocated and its former preschool closed. The preschool staff has a long history of working together with Martha Foster as Director.
+Resurrection Lutheran Weekday Preschool (RLWP) opened its doors in September 1997 at its current location in Resurrection Evangelical Lutheran Church in North Arlington. Originally housed at Christ United Methodist Church, the school moved to its current home when the hosting church relocated and its former preschool closed. The preschool staff has a long history of working together with Sue O'Donnell as Director.
 
 ### Philosophy
 
@@ -33,7 +33,7 @@ The goals of the preschool are to help each child:
 
 ### Offerings
 
-The preschool strives to be a fun and special place where children get to experience things they might not do at home and explore their natural curiosity. In addition to the play-based curriculum, enrichment classes are incorporated into monthly activities. The enrichment classes have included science, Spanish, sign language and movement over the years. Field trips are scheduled several times a year to local destinations. In addition to the special learning experiences, the children often enjoy riding a yellow school bus that is chartered for the occasions. Teacher conferences and class photos are also offered during the year. Students also enjoy using the fenced outdoor playground.
+The preschool strives to be a fun and special place where children get to experience things they might not do at home and explore their natural curiosity. In addition to the play-based curriculum, enrichment classes are incorporated into monthly activities. The enrichment classes have included science, Spanish, sign language and movement over the years. Field trips are scheduled several times a year to local destinations. In addition to the special learning experiences, the children often enjoy riding a yellow school bus that is chartered for the occasions. Field Trips are Subject to Change and may be cancelled for the upcoming School Year due to COVID-19. Teacher conferences and class photos are also offered during the year. Students also enjoy using the fenced outdoor playground.
 
 ### Religious Affiliation
 
