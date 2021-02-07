@@ -6,7 +6,7 @@ heading: Registration
 description: >-
   Registration Fees are due during priority registration OR when an offer is
   made during open registration. The registration fees are payable when a space
-  is offered and are nonrefundable. ;;$100.00 for the first child ;;$75.00 for
+  is offered and are non-refundable. ;;$100.00 for the first child ;;$75.00 for
   each additional child
 pricing:
   heading: Tuition
@@ -61,7 +61,7 @@ main:
 ---
 On both dates, we will start with an information session about the school and the registration process. We will then discuss the COVID Protocols in Place for the Upcoming School Year.
 
-**All forms and envelopes need to be submitted no later than Monday, April 14, 2021 at 1pm in order to be included in the lottery for class openings.**
+**All forms and envelopes need to be submitted no later than Monday, April 12, 2021 at 1pm in order to be included in the lottery for class openings.**
 
 For your convenience, a downloadable PDF version of the registration form is available below. Click to view, save, and print the registration form.
 
