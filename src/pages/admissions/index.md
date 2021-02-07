@@ -11,21 +11,18 @@ description: >-
 pricing:
   heading: Tuition
   description: >-
-    Activity Fees are $125 for Threes and Fours and $50 for Twos. ;;nl;;All
-    children must have reached the appropriate age by September 30, 2020.
-    September tuition and Activity Fee are due on March 12th, 2020 at 1pm.
+    Activity Fees are $150 for Threes and Fours and $75 for Twos. ;;nl;;All
+    children must have reached the appropriate age by September 30, 2021.
+    September tuition and Activity Fee are due on April 14th, 2021 at 1pm.
     Thereafter, tuition is due on the first day of the month from September
-    through April. Tuition and Fees are nonrefundable. ;;nl;;Parents are asked
+    through April. Tuition and Fees are non-refundable. ;;nl;;Parents are asked
     to take turns providing snack and water for their child's class.
   form_url: >-
     https://drive.google.com/file/d/1FOwzfLVU4atbyDorUpb5YLn98tdwuHFv/view?usp=sharing
   plans:
-    - description: Monday/Wednesday;;Tuesday/Thursday
+    - description: Tuesday/Thursday
       plan: 2 Year Olds (2 Days)
       price: 265 / mo
-    - description: Monday - Thursday
-      plan: 2 Year Olds (4 Days)
-      price: 530 / mo
     - description: Tuesday - Thursday
       plan: 3 Year Olds (3 Days)
       price: 325 / mo
@@ -58,22 +55,18 @@ testimonials:
 main:
   heading: Tours
   description: >-
-    Schedule Of Visits For Parents Of Preschool Age Children ;;Winter 2020
-    ;;nl;;Thursday, January 23, 2020 at 9:30am ;;Location:  Room 13 (on the
-    lower level of the church) ;;nl;;and ;;nl;;Tuesday, January 28, 2020 at
-    7:30pm ;;Location: Chapel (main level of the church)
+    Virtual Open House and Information Night Sessions ;;Winter 2021
+    ;;nl;;Thursday, February 11, 2021 at 6:30 pm;; Thursday, February 18, 2021
+    at 6:30 pm
 ---
-On both dates, we will start with an information session about the school and the registration process. We will then proceed to visit all of the classroom areas. On Thursday, the Director will conduct the session and classes will be visited. On Tuesday, a teacher and current parent will also be present, but classes will not be in session. Forms will be available at both sessions. Parents are welcome to attend a tour but are not required to do so in order to submit an application.
+On both dates, we will start with an information session about the school and the registration process. We will then discuss the COVID Protocols in Place for the Upcoming School Year.
 
-**All forms and envelopes need to be submitted no later than January 30, 2020 at 1pm in order to be included in the lottery for class openings.**
-
-Please make childcare arrangements for your children during the time you desire to visit.
+**All forms and envelopes need to be submitted no later than Monday, April 14, 2021 at 1pm in order to be included in the lottery for class openings.**
 
 For your convenience, a downloadable PDF version of the registration form is available below. Click to view, save, and print the registration form.
 
-Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) and indicate which day you will attend so that sufficient materials are available. If leaving a message, please leave your name, phone number and the age of your child. 
+Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) if ab=ny questions. If leaving a message, please leave your name, phone number and the age of your child. 
 
 We look forward to meeting you. Thank you for your interest. 
 
-_Martha Foster, Director_
-
+*Sue O'Donnell, Director*
