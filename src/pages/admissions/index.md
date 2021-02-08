@@ -17,8 +17,7 @@ pricing:
     Thereafter, tuition is due on the first day of the month from September
     through April. Tuition and Fees are non-refundable. ;;nl;;Parents are asked
     to take turns providing snack and water for their child's class.
-  form_url: >-
-    https://drive.google.com/file/d/1FOwzfLVU4atbyDorUpb5YLn98tdwuHFv/view?usp=sharing
+  form_url: 'https://drive.google.com/drive/folders/1xHr8Ll3SgfJgf80xoDyxuLPDOEhvgkt1'
   plans:
     - description: Tuesday/Thursday
       plan: 2 Year Olds (2 Days)
