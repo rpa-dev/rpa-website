@@ -13,10 +13,10 @@ pricing:
   description: >-
     Activity Fees are $150 for Threes and Fours and $75 for Twos. ;;nl;;All
     children must have reached the appropriate age by September 30, 2021.
-    September tuition and Activity Fee are due on April 14th, 2021 at 1pm.
-    Thereafter, tuition is due on the first day of the month from September
-    through April. Tuition and Fees are non-refundable. ;;nl;;Parents are asked
-    to take turns providing snack and water for their child's class.
+    September tuition, Registration Fee and Activity Fee are due on April 12th,
+    2021 at 1pm. Thereafter, tuition is due on the first day of the month from
+    September through April. Tuition and Fees are non-refundable. ;;nl;;Parents
+    are asked to take turns providing snack and water for their child's class.
   form_url: 'https://drive.google.com/drive/folders/1xHr8Ll3SgfJgf80xoDyxuLPDOEhvgkt1'
   plans:
     - description: Tuesday/Thursday
