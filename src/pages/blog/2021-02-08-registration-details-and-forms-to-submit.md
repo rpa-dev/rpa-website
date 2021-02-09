@@ -11,11 +11,7 @@ tags:
   - registration
   - enrollment
 ---
-
-
-Please Make Sure to Download and to Complete the Following Forms:
-
-
+**Please Make Sure to Email us at rlwp@copper.net to receive all of the following necessary paperwork to enroll/register your child for the Upcoming School Year. NOTE: All Enrollment/Registration forms are Due by Mon. April 12, 2021 at 1 pm by mail:**
 
 \*Application to Enroll Form
 
@@ -35,7 +31,7 @@ Once the Registration/Enrollment paperwork has been completed, please email the 
 
 Families then MUST mail out the Registration/Enrollment paperwork to us Immediately to Secure your child/ren spot/s for the upcoming School Year. The sooner the paperwork is sent to us, the better chances a space will be secured for your child.
 
-Please DON’T Forget to also include with the Registration/Enrollment paperwork and a Check payable to RLWP for the First Month’s Tuition, Registration and Activity Fees.
+**Please DON’T Forget to also include with the Registration/Enrollment paperwork and a Check payable to RLWP for the First Month’s Tuition, Registration and Activity Fees.**
 
 Place ALL Enrollment/Registration forms into the mail. Please mail them to:
 
@@ -47,20 +43,12 @@ Attention: Sue O'Donnell
 
 Arlington, VA 22205
 
-
-
 All Classroom Spaces are Subject to Availability- they are on a First Come, First Served Basis…so please submit your paperwork and payment ASAP.
-
-
 
 Once RLWP has received your Registration/Enrollment paperwork and payment we will reach out to your family via email to confirm your child/ren’s spot for our 2021-2022 School Year. We will also let you know if there are any additional documents we need to complete your child/ren’s paperwork.
 
 <!--EndFragment-->
 
-
-
 <!--EndFragment-->
-
-
 
 <!--EndFragment-->
