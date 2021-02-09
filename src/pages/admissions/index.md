@@ -62,9 +62,9 @@ On both dates, we will start with an information session about the school and th
 
 **All forms and envelopes need to be submitted no later than Monday, April 12, 2021 at 1pm in order to be included in the lottery for class openings.**
 
-For your convenience, a downloadable PDF version of the registration form is available below. Click to view, save, and print the registration form.
+**Please email the Director directly at rlwp@copper.net for a set of enrollment/registration forms for your child/ren. The Director will send each family the information ASAP to start the enrollment/registration process. A spot is NOT reserved until we have received all of the necessary paperwork and payment in the mail for your family as spots are very limited.**
 
-Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) if ab=ny questions. If leaving a message, please leave your name, phone number and the age of your child. 
+Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) if any questions. If leaving a message, please leave your name, phone number and the age of your child. 
 
 We look forward to meeting you. Thank you for your interest. 
 
