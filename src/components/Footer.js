@@ -1,26 +1,47 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from 'react';
+import { Link } from 'gatsby';
 
-import logo from '../img/logo.svg'
-import backgroundCut from '../../static/img/green-and-white-cut.png'
-import facebook from '../img/social/facebook.svg'
+import logo from '../img/logo.svg';
+import backgroundCut from '../../static/img/green-and-white-cut.png';
+import facebook from '../img/social/facebook.svg';
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-text-white-ter" >
+      <footer className="footer has-text-white-ter">
         <div className="content has-text-centered">
           <img
             src={logo}
             alt="Resurrection"
-            style={{ width: '14em', height: '8em', position: 'relative', top: '258px', zIndex: 2 }}
+            style={{
+              width: '14em',
+              height: '8em',
+              position: 'relative',
+              top: '258px',
+              zIndex: 2
+            }}
           />
-          <img src={backgroundCut} style={{width: '100%', height: '200px', position: 'relative', top: '100px', zIndex: 1}}/>
+          <img
+            src={backgroundCut}
+            style={{
+              width: '100%',
+              height: '200px',
+              position: 'relative',
+              top: '100px',
+              zIndex: 1
+            }}
+          />
         </div>
-        <div className="content has-text-centered has-background-lightgreen has-text-white-ter" style={{position: 'relative', top: '-0px'}}>
-          <div className="container has-background-lightgreen has-text-white-ter"  >
-            <div className="columns" style={{position: 'relative', zIndex: 1}}>
-              <div className="column is-4"  >
+        <div
+          className="content has-text-centered has-background-lightgreen has-text-white-ter"
+          style={{ position: 'relative', top: '-0px' }}
+        >
+          <div className="container has-background-lightgreen has-text-white-ter">
+            <div
+              className="columns"
+              style={{ position: 'relative', zIndex: 1 }}
+            >
+              <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">
                     <li>
@@ -59,19 +80,35 @@ const Footer = class extends React.Component {
                         Contact
                       </Link>
                     </li>
-                    <li/>
+                    <li />
                     <div className="block-address">
-                      <li className="has-text-weight-bold">Martha Foster, Director</li>
+                      <li className="has-text-weight-bold">
+                        Sue O'Donnell, Director
+                      </li>
                       <li>6201 Washington Boulevard</li>
                       <li>Arlington, VA 22205</li>
-                      <li><a className="link-address" href="tel:+17035386232">Phone: (703) 538-6232</a></li>
-                      <li><a className="link-address" href="mailto:rlwp@copper.net">rlwp@copper.net</a></li>
+                      <li>
+                        <a className="link-address" href="tel:+17035386232">
+                          Phone: (703) 538-6232
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="link-address"
+                          href="mailto:rlwp@copper.net"
+                        >
+                          rlwp@copper.net
+                        </a>
+                      </li>
                     </div>
                   </ul>
                 </section>
               </div>
               <div className="column is-1 social">
-                <a title="facebook" href="https://www.facebook.com/RLWPreschool/">
+                <a
+                  title="facebook"
+                  href="https://www.facebook.com/RLWPreschool/"
+                >
                   <img
                     src={facebook}
                     alt="Facebook"
@@ -83,8 +120,8 @@ const Footer = class extends React.Component {
           </div>
         </div>
       </footer>
-    )
+    );
   }
-}
+};
 
-export default Footer
+export default Footer;
