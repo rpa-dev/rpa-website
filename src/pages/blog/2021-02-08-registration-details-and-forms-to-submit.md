@@ -13,6 +13,8 @@ tags:
 ---
 **Please Make Sure to Email us at rlwp@copper.net to receive all of the following necessary paperwork to enroll/register your child for the Upcoming School Year. NOTE: All Enrollment/Registration forms are Due by Mon. April 12, 2021 at 1 pm by mail:**
 
+**\***Registration/Activity Fees and First Month's Tuition Payment Checks made payable to RLWP
+
 \*Application to Enroll Form
 
 \*COVID Waiver of Liability & Acknowledgement of Parent Responsibilities Form
@@ -33,7 +35,7 @@ Families then MUST mail out the Registration/Enrollment paperwork to us Immediat
 
 **Please DON’T Forget to also include with the Registration/Enrollment paperwork and a Check payable to RLWP for the First Month’s Tuition, Registration and Activity Fees.**
 
-Place ALL Enrollment/Registration forms into the mail. Please mail them to:
+Place ALL Enrollment/Registration forms and payment into the mail. Please mail them to:
 
 Resurrection Lutheran Weekday Preschool (RLWP)
 
