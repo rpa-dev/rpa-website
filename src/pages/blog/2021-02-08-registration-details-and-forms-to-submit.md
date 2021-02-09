@@ -19,7 +19,7 @@ tags:
 
 \*Pupil Information Form
 
-\*Emergency Information Form
+\*Emergency Information Form (Form Needs to be Notarized)
 
 \*Lunch Bunch Registration Form (If Enrolling your child/ren in this- program)
 
