@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Virtual Open House Tours and Parent Information Session Nights:'
+title: Virtual Open House Tours and Parent Information Session Nights
 date: 2020-01-13T04:03:43.802Z
 description: >+
   At these Virtual Open House and Parent Information Session Nights we will be
