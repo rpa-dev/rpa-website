@@ -1,47 +1,51 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Testimonials from '../components/Testimonials'
-import Pricing from '../components/Pricing'
-import Content, { HTMLContent } from '../components/Content'
-import { v4 } from 'uuid'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { graphql } from 'gatsby';
+import Layout from '../components/Layout';
+import Testimonials from '../components/Testimonials';
+import Pricing from '../components/Pricing';
+import Content, { HTMLContent } from '../components/Content';
+import { v4 } from 'uuid';
 
-function renderDescription(txt = '', delim=";;") {
+function renderDescription(txt = '', delim = ';;') {
   const [firstPart = '', ...parts] = txt.split(delim);
-   
+
   return (
     <div>
       {firstPart}
       <ul>
-        {parts.map((t) => (<li key={t}>{t}</li>))}
+        {parts.map(t => (
+          <li key={t}>{t}</li>
+        ))}
       </ul>
     </div>
   );
 }
 
-function renderParagraphDescription(txt = '', delim=";;", newline="nl") {
+function renderParagraphDescription(txt = '', delim = ';;', newline = 'nl') {
   const parts = txt.split(delim);
-  
+
   return (
     <div>
-        {parts.map((t) => (<div key={v4()}>{t === newline ? <br/> : t}</div>))}
+      {parts.map(t => (
+        <div key={v4()}>{t === newline ? <br /> : t}</div>
+      ))}
     </div>
   );
 }
 
-function renderMainDescription(txt = '', delim=";;", newline="nl") {
+function renderMainDescription(txt = '', delim = ';;', newline = 'nl') {
   const [firstPart = '', ...parts] = txt.split(delim);
-   
+
   return (
     <div className="has-text-centered">
       <div className="has-text-weight-bold is-size-4">{firstPart}</div>
-      <br/>
-      {parts.map((t) => (
-        <div key={t}>{t === newline ? 
-          <div style={{lineHeight: '8px'}}>&nbsp;</div> : t}
-        </div>)
-      )}
+      <br />
+      {parts.map(t => (
+        <div key={t}>
+          {t === newline ? <div style={{ lineHeight: '8px' }}>&nbsp;</div> : t}
+        </div>
+      ))}
     </div>
   );
 }
@@ -59,8 +63,10 @@ export const AdmissionsPageTemplate = ({
   pricing,
   disclaimer
 }) => {
-  const PageContent = contentComponent || Content
-  
+  const PageContent = contentComponent || Content;
+
+  const isShowingDownloadForm = false;
+
   return (
     <div className="content">
       <div
@@ -68,21 +74,19 @@ export const AdmissionsPageTemplate = ({
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-          })`,
+          })`
         }}
       >
-        <h2
-          className="has-text-weight-bold is-size-1 boxyBg"
-        >
-          {title}
-        </h2>
+        <h2 className="has-text-weight-bold is-size-1 boxyBg">{title}</h2>
       </div>
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+                <h3 className="has-text-weight-semibold is-size-2">
+                  {heading}
+                </h3>
                 {renderDescription(description)}
               </div>
             </div>
@@ -92,19 +96,27 @@ export const AdmissionsPageTemplate = ({
                   {pricing.heading}
                 </h2>
                 <Pricing data={pricing.plans} />
-                <br/>
-                <div className="column is-12 has-text-centered">
-                  <a className="btn" target="_blank" rel="noopener noreferrer" href={pricing.form_url} title="Link to download the Registration PDF Form">
-                    Download Registration Form
-                  </a>
-                </div>
-                <br/>
+                <br />
+                {isShowingDownloadForm && (
+                  <div>
+                    <div className="column is-12 has-text-centered">
+                      <a
+                        className="btn"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={pricing.form_url}
+                        title="Link to download the Registration PDF Form"
+                      >
+                        Download Registration Form
+                      </a>
+                    </div>
+                    <br />
+                  </div>
+                )}
                 {renderParagraphDescription(pricing.description)}
-                <br/>
+                <br />
                 <h5>
-                  <i>
-                    {disclaimer}
-                  </i>
+                  <i>{disclaimer}</i>
                 </h5>
                 <div
                   className="full-width-image-container"
@@ -115,12 +127,12 @@ export const AdmissionsPageTemplate = ({
                         : fullImage
                     })`,
                     backgroundPosition: `top left`,
-                    backgroundAttachment: `fixed`,
+                    backgroundAttachment: `fixed`
                   }}
                 />
-                <h3/>
+                <h3 />
                 <Testimonials testimonials={testimonials} />
-                <h3/>
+                <h3 />
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-3">
@@ -131,20 +143,28 @@ export const AdmissionsPageTemplate = ({
                     </div>
                   </div>
                 </div>
-                <PageContent className="content" content={content}/>
-                <div className="column is-12 has-text-centered">
-                  <a className="btn" target="_blank" rel="noopener noreferrer" href={pricing.form_url} title="Link to download the Registration PDF Form">
-                    Download Registration Form
-                  </a>
-                </div>
+                <PageContent className="content" content={content} />
+                {isShowingDownloadForm && (
+                  <div className="column is-12 has-text-centered">
+                    <a
+                      className="btn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={pricing.form_url}
+                      title="Link to download the Registration PDF Form"
+                    >
+                      Download Registration Form
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
 AdmissionsPageTemplate.propTypes = {
   content: PropTypes.node,
@@ -158,21 +178,21 @@ AdmissionsPageTemplate.propTypes = {
     description: PropTypes.string,
     image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
   }),
   testimonials: PropTypes.array,
   fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   pricing: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
-    plans: PropTypes.array,
+    plans: PropTypes.array
   }),
   disclaimer: PropTypes.string
-}
+};
 
 const AdmissionsPage = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
-  
+  const { frontmatter, html } = data.markdownRemark;
+
   return (
     <Layout>
       <AdmissionsPageTemplate
@@ -189,19 +209,19 @@ const AdmissionsPage = ({ data }) => {
         disclaimer={frontmatter.disclaimer}
       />
     </Layout>
-  )
-}
+  );
+};
 
 AdmissionsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       html: PropTypes.node,
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default AdmissionsPage
+export default AdmissionsPage;
 
 export const productPageQuery = graphql`
   query AdmissionsPage($id: String!) {
@@ -247,4 +267,4 @@ export const productPageQuery = graphql`
       }
     }
   }
-`
+`;
