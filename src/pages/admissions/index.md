@@ -55,8 +55,8 @@ main:
   heading: Tours
   description: >-
     Virtual Open House and Information Night Sessions ;;Winter 2021
-    ;;nl;;Thursday, February 11, 2021 at 6:30 pm;; Thursday, February 18, 2021
-    at 6:30 pm
+    ;;nl;;Thursday, March 4, 2021 at 7:00 pm;; Wednesday, March 10, 2021 at 7:00
+    pm
 ---
 On both dates, we will start with an information session about the school and the registration process. We will then discuss the COVID Protocols in Place for the Upcoming School Year.
 
