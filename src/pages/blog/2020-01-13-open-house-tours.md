@@ -17,26 +17,41 @@ tags:
 ---
 ##### Winter 2021
 
-* Thursday, February 11, 2021 at 6:30 pm via zoom
-* Tuesday, February 18, 2021 at 6:30 pm via zoom
+* Thursday, March 4, 2021 at 7:00 pm via zoom
+* Wednesday, March 10, 2021 at 7:00 pm via zoom
 
   Please Plan to Join Us: 
 
-  Topic: Resurrection Lutheran Weekday Preschool Information Night  Time: Feb 11, 2021 06:30 PM Eastern Time (US and Canada) 
+  <!--StartFragment-->
+
+  ```
+  Time: Mar 4, 2021 07:00 PM Eastern Time (US and Canada) 
 
   Join Zoom Meeting 
 
-  https://us02web.zoom.us/j/89138114263?pwd=K3FZeUNMNUp2SXJJSDJlVmMrS1crQT09 
+  https://us02web.zoom.us/j/85646516297?pwd=VW5FOTBvS1F2RitoNHNxZUFkc2dXUT09 
 
-  Meeting ID: 891 3811 4263  Passcode: 310088 
+  Meeting ID: 856 4651 6297 
+  Passcode: 281325 
+  ```
 
-  Topic: Resurrection Lutheran Weekday Preschool Information Night  Time: Feb 18, 2021 06:30 PM Eastern Time (US and Canada) 
+  <!--StartFragment-->
+
+  ```
+  Topic: RLWP Information Night 
+  Time: Mar 10, 2021 07:00 PM Eastern Time (US and Canada) 
 
   Join Zoom Meeting 
 
-  https://us02web.zoom.us/j/86723728063?pwd=bWlsUVBTclk1YmpvMHNiU3BualQwZz09 
+  https://us02web.zoom.us/j/83613165542?pwd=Sis0VkloZ0FzdUxUTWZBNHhGN0xsQT09 
 
-  Meeting ID: 867 2372 8063  Passcode: 254094 
+  Meeting ID: 836 1316 5542 
+  Passcode: 083436 
+  ```
+
+  <!--EndFragment-->
+
+  <!--EndFragment-->
 
 Please call ([703.538.6232](tel:+17035386232)) or email ([rlwp@copper.net](mailto:rlwp@copper.net)) if you have any questions. Please note that the Director checks voicemail messages 1 time per week.
 
