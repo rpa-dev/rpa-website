@@ -16,7 +16,9 @@ pricing:
     September tuition, Registration Fee and Activity Fee are due on April 12th,
     2021 at 1pm. Thereafter, tuition is due on the first day of the month from
     September through April. Tuition and Fees are non-refundable. ;;nl;;Parents
-    are asked to take turns providing snack and water for their child's class.
+    are asked to bring their child a Morning Snack from home and water. All
+    snacks must be Nut and Tree-Nut Free. Snacks and Water MUST be labeled with
+    their child's first and last name and dated.
   form_url: 'https://drive.google.com/drive/folders/1xHr8Ll3SgfJgf80xoDyxuLPDOEhvgkt1'
   plans:
     - description: Tuesday/Thursday
