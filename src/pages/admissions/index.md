@@ -56,13 +56,14 @@ testimonials:
 main:
   heading: Tours
   description: >-
-    Virtual Open House and Information Night Sessions ;;Winter 2021
-    ;;nl;;Thursday, March 4, 2021 at 7:00 pm;; Wednesday, March 10, 2021 at 7:00
-    pm
+    Due to COVID-19 all in-person tours have been placed on hold at this time.
+    If you would like to get more information on our preschool please email us
+    directly at rlwp@copper.net so we can try to work with your family on
+    setting up a Virtual Open House Event of Virtual Tour with our Director.
 ---
-On both dates, we will start with an information session about the school and the registration process. We will then discuss the COVID Protocols in Place for the Upcoming School Year.
+**Registration Process**
 
-**All forms and envelopes need to be submitted no later than Monday, April 12, 2021 at 1pm in order to be included in the lottery for class openings.**
+**All forms and envelopes need to be submitted no later than Monday, April 12, 2021 at 1pm in order to be included in the lottery for class openings if there is not a current space available. If space is available it is on a first come, first served basis due to COVID at this time.**
 
 **Please email the Director directly at [rlwp@copper.net](mailto:rlwp@copper.net) for a set of enrollment/registration forms for your child/ren. The Director will send each family the information ASAP to start the enrollment/registration process. A spot is NOT reserved until we have received all of the necessary paperwork and payment in the mail for your family as spots are very limited.**
 
