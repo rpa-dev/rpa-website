@@ -30,9 +30,12 @@ pricing:
     - description: Monday - Thursday
       plan: 3 Year Olds (4 Days)
       price: 435 / mo
-    - description: Monday - Thursday;;INCLUDES EXTENDED DAY
-      plan: 4 Year Olds (4 Days)
-      price: 495 / mo
+    - description: Monday - Thursday
+      plan: '4 Year Olds (4 Days) '
+      price: 435 / mo
+    - description: Monday-Thursday
+      plan: 4 Year Olds (4 Days) Includes Extended Day Program
+      price: '495'
 disclaimer: >
   Resurrection Lutheran Weekday Preschool admits students of any race, color,
   national and ethnic origin to all the rights, privileges, programs and
