@@ -9,8 +9,8 @@ description: >-
   exceptions, the Fours class will extend to 1 pm on Tuesday, Wednesday, and
   Thursday, starting the second week of school. The 2's and 3's classes will
   continue to dismiss at 12 noon on all days. Lunch Bunch for children will be
-  offered on Monday, Tuesday, Wednesday, and Thursday if interest warrants. The
-  school is not open on Fridays.
+  offered on Monday, Tuesday, Wednesday, and Thursday if interest warrants
+  beginning October 4, 2021. The school is not open on Fridays.
 intro:
   blurbs:
     - image: /img/IMG_4.jpg
@@ -28,7 +28,14 @@ intro:
       heading: 4 Year Olds
       text: >
         Fours classes start at 9:15am and end at 1pm on T/W/Th and includes
-        lunch. On Monday, class ends at 12 noon. ;;Four days a week (M/T/W/Th)
+        lunch if the Extended Day Option is chosen. On Monday, class ends at 12
+        noon. ;;Four days a week (M/T/W/Th)
+
+        If your child is NOT participating in the Extended Day Program, their
+        schedule is Monday-Thursday from 9:15 am to 12 pm.
+
+        NOTE: There is an additional fee to be part of the Fours Classroom
+        Extended Day Program!
 main:
   heading: Policy
   description: >
