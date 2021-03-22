@@ -11,7 +11,7 @@ tags:
   - registration
   - enrollment
 ---
-**Please Make Sure to Email us at rlwp@copper.net to receive all of the following necessary paperwork to enroll/register your child for the Upcoming School Year. NOTE: All Enrollment/Registration forms are Due by Mon. April 12, 2021 at 1 pm by mail:**
+**Please Make Sure to Email us at rlwp@copper.net to receive all of the following necessary paperwork to enroll/register your child for the Upcoming School Year. NOTE: All Enrollment/Registration forms are Due by Mon. April 12, 2021 at 1 pm by mail. Due to COVID-19 we are not accepting In-Person Application Drop Offs at this time!**
 
 **\***Registration/Activity Fees and First Month's Tuition Payment Checks made payable to RLWP
 
