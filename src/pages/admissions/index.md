@@ -62,7 +62,7 @@ main:
     Due to COVID-19 all in-person tours have been placed on hold at this time.
     If you would like to get more information on our preschool please email us
     directly at rlwp@copper.net so we can try to work with your family on
-    setting up a Virtual Open House Event of Virtual Tour with our Director.
+    setting up a Virtual Open House Event or a Virtual Tour with our Director.
 ---
 **Registration Process**
 
