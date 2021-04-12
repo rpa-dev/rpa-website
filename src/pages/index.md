@@ -35,14 +35,21 @@ intro:
 main:
   heading: Classes
   description: >
-    Classes for the 2’s are held 2 days per week on Tuesday and Thursday from
-    9:15 am - 12:00 noon. The 3’s classes are held Monday through Thursday from
-    9:15 am – 12:00 noon. There is an optional lunch program for these groups as
-    well. This program runs 12 noon – 1 pm on Mondays, Tuesdays, Wednesdays, and
-    Thursdays. The 4’s class meets Mondays from 9:15 am – 12:00 noon and
-    Tuesdays, Wednesdays and Thursdays from 9:15 am – 1:00 pm. The school is not
-    open on Fridays. ;;2's class two days a week (Tuesday/Thursday)  ;;3's class
-    three days a week (Tuesday/Wednesday/Thursday) ;;3's class four days a week
+    Our Preschool is based on a mixed-age group model. This is the model we have
+    chosen to follow to have each child's learning based on where they are and
+    to help them grow throughout the school year. We find that having a
+    mixed-age group model is a great way for our older student learners to help
+    the younger student learners through example and hands-on experiences. This
+    also teachers the older students great leadership skills which they will
+    take as they embark into Kindergarten and on. Classes for the 2’s are held 2
+    days per week on Tuesday and Thursday from 9:15 am - 12:00 noon. The 3’s
+    classes are held Monday through Thursday from 9:15 am – 12:00 noon. There is
+    an optional lunch program for these groups as well. This program runs 12
+    noon – 1 pm on Mondays, Tuesdays, Wednesdays, and Thursdays. The 4’s class
+    meets Mondays from 9:15 am – 12:00 noon and Tuesdays, Wednesdays and
+    Thursdays from 9:15 am – 1:00 pm. The school is not open on Fridays. ;;2's
+    class two days a week (Tuesday/Thursday)  ;;3's class three days a week
+    (Tuesday/Wednesday/Thursday) ;;3's class four days a week
     (Monday/Tuesday/Wednesday/Thursday) ;;4's class four days a week
     (Monday/Tuesday/Wednesday/Thursday)
 main2:
