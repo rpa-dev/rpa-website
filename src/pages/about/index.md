@@ -11,7 +11,7 @@ testimonials:
 ---
 ### Mission
 
-Our Mission is to provide a caring setting that creates and fosters a sense of community as well as a life-long love of learning in your child.
+Our Mission is to provide a caring setting that creates and fosters a sense of community as well as a life-long love of learning in your child. We have a mixed-age group program for our preschoolers. Children ages 2-4 years will be combined in preschool classrooms where they will have lots of hands-on learning experiences with both our staff and our older preschool students being positive role models for their learning to take place. Each child will have lessons tailored to where they are academically and to be able help them to reach their next educational goals.
 
 ### History
 
@@ -24,12 +24,14 @@ The purpose of Resurrection Lutheran Weekday Preschool is to provide young child
 The goals of the preschool are to help each child:
 
 * Develop a good self-concept
-* Have a wide variety of learning experiences
+* Have a wide variety of learning experiences and have opportunities to develop leadership skills
 * Learn to independently choose activities which interest them
 * Have opportunities to develop individual talents and to explore materials creatively
 * Develop social skills which make work and play with others a satisfying experience
 * Develop physical skills suitable to their age and growth pattern
 * Feel comfortable with the immediate environment of home, school, church, and community
+
+
 
 ### Offerings
 
