@@ -13,12 +13,12 @@ pricing:
   description: >-
     Activity Fees are $150 for Threes and Fours and $75 for Twos. ;;nl;;All
     children must have reached the appropriate age by September 30, 2021.
-    September tuition, Registration Fee and Activity Fee are due on April 12th,
-    2021 at 1pm. Thereafter, tuition is due on the first day of the month from
-    September through April. Tuition and Fees are non-refundable. ;;nl;;Parents
-    are asked to bring their child a Morning Snack from home and water. All
-    snacks must be Nut and Tree-Nut Free. Snacks and Water MUST be labeled with
-    their child's first and last name and dated.
+    September tuition, Registration Fee and Activity Fee are due at time
+    enrollment paperwork is submitted. Thereafter, tuition is due on the first
+    day of the month from September through April. Tuition and Fees are
+    non-refundable. ;;nl;;Parents are asked to bring their child a Morning Snack
+    from home and water. All snacks must be Nut and Tree-Nut Free. Snacks and
+    Water MUST be labeled with their child's first and last name and dated.
   form_url: 'https://drive.google.com/drive/folders/1xHr8Ll3SgfJgf80xoDyxuLPDOEhvgkt1'
   plans:
     - description: Tuesday/Thursday
@@ -68,7 +68,7 @@ main:
 ---
 **Registration Process**
 
-**All forms and envelopes need to be submitted no later than Monday, April 12, 2021 at 1pm in order to be included in the lottery for class openings if there is not a current space available. If space is available it is on a first come, first served basis due to COVID at this time.**
+**All forms and envelopes need to be submitted ASAP in order to be included in the lottery for class openings if there is not a current space available. If space is available it is on a first come, first served basis due to COVID at this time.**
 
 **Please email the Director directly at [rlwp@copper.net](mailto:rlwp@copper.net) for a set of enrollment/registration forms for your child/ren. The Director will send each family the information ASAP to start the enrollment/registration process. A spot is NOT reserved until we have received all of the necessary paperwork and payment in the mail for your family as spots are very limited.**
 
