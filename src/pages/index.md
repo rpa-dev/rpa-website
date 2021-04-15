@@ -16,11 +16,11 @@ mainpitch:
     Please read the Latest News below about the 2021-2022 School Year.
 description: >-
   Enriching children’s lives through play-based learning since 1997, RLWP is a
-  part time, 2-4 year old play-based early learning experience. Welcoming
-  classrooms and playgrounds, experienced teachers, enrichment classes on
-  age-appropriate subjects, and off-site field trips combine to provide a
-  special learning experience, to create and foster a love of learning in your
-  child.
+  part time, 2-5 year old mixed-aged group and play-based early learning
+  experience. Welcoming classrooms and playgrounds, teachers, enrichment classes
+  on age-appropriate subjects, and off-site field trips (when available) combine
+  to provide a special learning experience, to create and foster a love of
+  learning in your child.
 intro:
   blurbs:
     - image: /img/IMG_1.jpg
@@ -35,22 +35,23 @@ intro:
 main:
   heading: Classes
   description: >
-    Our Preschool is based on a mixed-age group model. This is the model we have
-    chosen to follow to have each child's learning based on where they are and
-    to help them grow throughout the school year. We find that having a
-    mixed-age group model is a great way for our older student learners to help
-    the younger student learners through example and hands-on experiences. This
-    also teachers the older students great leadership skills which they will
-    take as they embark into Kindergarten and on. Classes for the 2’s are held 2
-    days per week on Tuesday and Thursday from 9:15 am - 12:00 noon. The 3’s
-    classes are held Monday through Thursday from 9:15 am – 12:00 noon. There is
-    an optional lunch program for these groups as well. This program runs 12
-    noon – 1 pm on Mondays, Tuesdays, Wednesdays, and Thursdays. The 4’s class
-    meets Mondays from 9:15 am – 12:00 noon and Tuesdays, Wednesdays and
-    Thursdays from 9:15 am – 1:00 pm. The school is not open on Fridays. ;;2's
-    class two days a week (Tuesday/Thursday)  ;;3's class three days a week
-    (Tuesday/Wednesday/Thursday) ;;3's class four days a week
-    (Monday/Tuesday/Wednesday/Thursday) ;;4's class four days a week
+    Our Preschool is based on a mixed-age, and play-based group model. This is
+    the model we have chosen to follow to have each child's learning based on
+    where they are and to help them grow throughout the school year. We find
+    that having a mixed-age group, and play-based model is a great way for our
+    older student learners to help the younger student learners through example
+    and hands-on experiences. This also teaches the older students great
+    leadership skills which they will take as they embark into Kindergarten and
+    onward. The 2’s mixed-aged classes are held 2 days per week on Tuesday and
+    Thursday from 9:15 am - 12:00 noon. The 3’s mixed-aged classes are held
+    Monday through Thursday from 9:15 am – 12:00 noon. There is an optional
+    lunch program for these groups as well at an additional fee. This program
+    runs from 12 noon – 1 pm on Mondays, Tuesdays, Wednesdays, and Thursdays.
+    The 4’s mixed-aged classes meet Mondays from 9:15 am – 12:00 noon and
+    Tuesdays, Wednesdays and Thursdays from 9:15 am – 1:00 pm. The school is not
+    open on Fridays. ;;2's class two days a week (Tuesday/Thursday)  ;;3's class
+    three days a week (Tuesday/Wednesday/Thursday) ;;3's class four days a week
+    (Monday/Tuesday/Wednesday/Thursday) ;;4's/5's class four days a week
     (Monday/Tuesday/Wednesday/Thursday)
 main2:
   heading: Latest News
