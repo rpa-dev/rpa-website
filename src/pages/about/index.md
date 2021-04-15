@@ -11,19 +11,19 @@ testimonials:
 ---
 ### Mission
 
-Our Mission is to provide a caring setting that creates and fosters a sense of community as well as a life-long love of learning in your child. We have a mixed-age group program for our preschoolers. Children ages 2-4 years will be combined in preschool classrooms where they will have lots of hands-on learning experiences with both our staff and our older preschool students being positive role models for their learning to take place. Each child will have lessons tailored to where they are academically and to be able help them to reach their next educational goals.
+Our Mission is to provide a caring setting that creates and fosters a sense of community as well as a life-long love of learning in your child. We have a mixed-age, play-based group program for our preschoolers. Children ages 2-5 years will be combined in preschool classrooms where they will have lots of hands-on learning experiences with both our staff and our older preschool students being positive role models for their learning to take place. 
 
 ### History
 
-Resurrection Lutheran Weekday Preschool (RLWP) opened its doors in September 1997 at its current location in Resurrection Evangelical Lutheran Church in North Arlington. Originally housed at Christ United Methodist Church, the school moved to its current home when the hosting church relocated and its former preschool closed. The preschool staff has a long history of working together with Sue O'Donnell as Director.
+Resurrection Lutheran Weekday Preschool (RLWP) opened its doors in September 1997 at its current location in Resurrection Evangelical Lutheran Church in North Arlington. Originally housed at Christ United Methodist Church, the school moved to its current home when the hosting church relocated and its former preschool closed.
 
 ### Philosophy
 
-The purpose of Resurrection Lutheran Weekday Preschool is to provide young children and their families an opportunity to participate in an early learning experience within a Christian framework. The school recognizes that each child is a unique individual, and with that in mind, the program provides a balanced emphasis on the mental, physical, social, emotional, and spiritual growth of the child. The school embraces the philosophy of "learning through play."
+The purpose of Resurrection Lutheran Weekday Preschool is to provide young children and their families an opportunity to participate in an early learning experience within a Christian framework. The school recognizes that each child is a unique individual, and with that in mind, the program provides a balanced emphasis on the mental, physical, social, emotional, and spiritual growth of the child. The school embraces the philosophy of "learning through play" as well as a mixed-age group setting to encourage learning.
 
 The goals of the preschool are to help each child:
 
-* Develop a good self-concept
+* Develop a good self-concept while developing leadership skills
 * Have a wide variety of learning experiences and have opportunities to develop leadership skills
 * Learn to independently choose activities which interest them
 * Have opportunities to develop individual talents and to explore materials creatively
@@ -31,11 +31,9 @@ The goals of the preschool are to help each child:
 * Develop physical skills suitable to their age and growth pattern
 * Feel comfortable with the immediate environment of home, school, church, and community
 
-
-
 ### Offerings
 
-The preschool strives to be a fun and special place where children get to experience things they might not do at home and explore their natural curiosity. In addition to the play-based curriculum, enrichment classes are incorporated into monthly activities. The enrichment classes have included science, Spanish, sign language and movement over the years. Field trips are scheduled several times a year to local destinations. In addition to the special learning experiences, the children often enjoy riding a yellow school bus that is chartered for the occasions. Field Trips are Subject to Change and may be cancelled for the upcoming School Year due to COVID-19. Teacher conferences and class photos are also offered during the year. Students also enjoy using the fenced outdoor playground.
+The preschool strives to be a fun and special place where children get to experience things they might not do at home and explore their natural curiosity. In addition to the mixed-age groups and play-based curriculum, enrichment classes are incorporated into monthly activities. The enrichment classes have included science, Spanish, sign language and movement over the years. Field trips are scheduled several times a year to local destinations. In addition to the special learning experiences, the children often enjoy riding a yellow school bus that is chartered for the occasions. Field Trips are Subject to Change and may be cancelled for the upcoming School Year due to COVID-19. Teacher conferences and class photos are also offered during the year. Students also enjoy using the fenced outdoor playground.
 
 ### Religious Affiliation
 
