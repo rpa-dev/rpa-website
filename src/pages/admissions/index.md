@@ -2,40 +2,21 @@
 templateKey: admissions-page
 title: Join Our Community
 image: /img/RWLP-admissions.jpg
-heading: Registration
+heading: Serving Arlington County and Northern VA for Over the Past 20 Years!
 description: >-
-  Registration Fees are due during priority registration OR when an offer is
-  made during open registration. The registration fees are payable when a space
-  is offered and are non-refundable. ;;$100.00 for the first child ;;$75.00 for
-  each additional child
+  Thank you for allowing us to serve families in Arlington and in Northern VA
+  for over the past 20 years! It has been an honor for RLWP to work with so many
+  children and families over the past 20 years. 
 pricing:
-  heading: Tuition
+  heading: Looking for Childcare or a Preschool Facility?
   description: >-
-    Activity Fees are $150 for Threes and Fours and $75 for Twos. ;;nl;;All
-    children must have reached the appropriate age by September 30, 2021.
-    September tuition, Registration Fee and Activity Fee are due at time
-    enrollment paperwork is submitted. Thereafter, tuition is due on the first
-    day of the month from September through April. Tuition and Fees are
-    non-refundable. ;;nl;;Parents are asked to bring their child a Morning Snack
-    from home and water. All snacks must be Nut and Tree-Nut Free. Snacks and
-    Water MUST be labeled with their child's first and last name and dated.
+    If your family needs help looking for a childcare program or preschool
+    facility to help meet your families needs, please visit the VA DSS website.
+    You can search for facilities by zip code that may be a good fit for your
+    family and your needs. Please visit their website directly at
+    https://www.dss.virginia.gov/facility/search/cc2.cgi
   form_url: 'https://drive.google.com/drive/folders/1xHr8Ll3SgfJgf80xoDyxuLPDOEhvgkt1'
-  plans:
-    - description: Tuesday/Thursday
-      plan: 2 Year Olds (2 Days)
-      price: 265 / mo
-    - description: Tuesday - Thursday
-      plan: 3 Year Olds (3 Days)
-      price: 325 / mo
-    - description: Monday - Thursday
-      plan: 3 Year Olds (4 Days)
-      price: 435 / mo
-    - description: Monday - Thursday
-      plan: '4/5 Year Olds (4 Days) '
-      price: 435 / mo
-    - description: Monday-Thursday
-      plan: 4/5 Year Olds (4 Days) Includes Extended Day Program
-      price: 495/ mo
+  plans: []
 disclaimer: >
   Resurrection Lutheran Weekday Preschool admits students of any race, color,
   national and ethnic origin to all the rights, privileges, programs and
@@ -57,23 +38,11 @@ testimonials:
   - author: Eevi
     quote: This is truly the most loving preschool. We couldn’t be happier!
 main:
-  heading: Tours
+  heading: RLWP Operation Status
   description: >-
-    Due to COVID-19 all in-person tours have been placed on hold at this time.
-    If you would like to get more information on our preschool please email us
-    directly at rlwp@copper.net so we can try to work with your family on
-    setting up a Virtual Meeting with our Director to go over the
-    enrollment/registration process and answer any questions your family may
-    have.
+    Due to low enrollment numbers for the upcoming 2021-2022 Preschool Year,
+    RLPW has decided to remain Closed for the upcoming school year.
 ---
-**Registration Process**
+**It is with sadness to announce that RLWP will remain closed for the upcoming 2021-2022 Preschool Year. It has been a pleasure serving families in the Arlington and Northern VA areas for over the past 20 years. We wish your family all the best in your search for a preschool program for your child. If you have any questions or concerns that need immediate attention, please feel free to email us directly at rlwpcochairs@gmail.com and we will respond as soon as possible.**
 
-**All forms and envelopes need to be submitted ASAP in order to be included in the lottery for class openings if there is not a current space available. If space is available it is on a first come, first served basis due to COVID at this time.**
-
-**Please email the Director directly at [rlwp@copper.net](mailto:rlwp@copper.net) for a set of enrollment/registration forms for your child/ren. The Director will send each family the information ASAP to start the enrollment/registration process. A spot is NOT reserved until we have received all of the necessary paperwork and payment in the mail for your family as spots are very limited.**
-
-Please call ([703.538.6232](tel:+17035386232)) or email ([rwlp@copper.net](rwlp@copper.net)) if any questions. If leaving a message, please leave your name, phone number and the age of your child. 
-
-We look forward to meeting you. Thank you for your interest. 
-
-*Sue O'Donnell, Director*
+**Take Care**
