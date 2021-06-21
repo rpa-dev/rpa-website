@@ -45,6 +45,8 @@ The preschool believes that children succeed best when their parents are activel
 
 Through the years, parents and their children have been involved in several community service projects to benefit local organizations as well as teach young children the importance of being a part of a larger community. Every year, families are offered the opportunity to participate in a secret Santa program to benefit local charities. Once or twice a year, family volunteers also coordinate efforts to support various church based service projects which have included clothing drives and food drives. RLWP has also helped local pediatric clinics when in need. A few years ago when the David M. Brown Planetarium in Arlington was at risk of closing, preschool families made donations on behalf of the school to help save this educational space. Thanks to the families who donated, RLWP is listed as an official "Friend of the Planetarium."
 
-### Operation and Licensing
+### Operation Status and Licensing
+
+RLWP will remain Closed for students for the upcoming 2021-2022 School Year. We wish your family all of the best with your search for a preschool program to meet your families needs for the upcoming school year. 
 
 The Preschool is administered by the Weekday Preschool Committee which includes church representatives, parents, and officers of the Preschool. Annually, as a church-based program, RLWP completes the necessary inspections and submission of documents to maintain its religious-exemption from state licensure. These include fire safety and environmental inspections as well as maintaining health and security standards for staff.
