@@ -45,4 +45,4 @@ main:
 ---
 **It is with sadness to announce that RLWP will remain closed for the upcoming 2021-2022 Preschool Year. It has been a pleasure serving families in the Arlington and Northern VA areas for over the past 20 years. We wish your family all the best in your search for a preschool program for your child. If you have any questions or concerns that need immediate attention, please feel free to email us directly at rlwpcochairs@gmail.com and we will respond as soon as possible.**
 
-**Take Care**
+**Wishing your Family all of the Best and to Take Care**
