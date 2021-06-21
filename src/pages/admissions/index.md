@@ -1,6 +1,6 @@
 ---
 templateKey: admissions-page
-title: Join Our Community
+title: Our Preschool will Remain Closed
 image: /img/RWLP-admissions.jpg
 heading: Serving Arlington County and Northern VA for Over the Past 20 Years!
 description: >-
